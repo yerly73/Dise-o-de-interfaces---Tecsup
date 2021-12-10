@@ -1,0 +1,121 @@
+.container {
+  max-width: 960px;
+  text-align: center;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.texto{
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+  text-align: left;
+}
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
+
+#fondo{
+  width: 100%;
+  height: 765px;
+  background-image:url(https://images.samsung.com/is/image/samsung/assets/pe/smartphones/galaxy-z-flip3-5g/images/galaxy-z-flip3-5g_highlights_kv_l.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+ position: relative;
+}
+#aliniamiento {
+  left:4% ;
+    top:20%;
+  
+}
+#text{
+  left:3% ;
+  top:20%; 
+  text-align: left;
+  font-size: 130px;
+  letter-spacing: -14px;
+  line-height:120px;
+}
+ 
+
+h1{font-size:80px;
+}
+h2{
+  font-size: 100px;
+  
+}
+h3{
+  font-size: 90px;
+  
+}
+h4{
+  font-size: 80px;
+  
+}
+#crema {
+  background-color:rgb(243, 191, 172) ;
+}
+#verde{
+  background-color:rgb(101, 221, 101) ;
+  
+}
+#lavanda{
+  background-color: plum;
+}
+#negro {
+  background-color: rgba(61, 61, 61, 0.527);}
+#chico{
+  color: black;
+  
+    left:3% ;
+    top:20%; 
+    text-align: left;
+    font-size: 130px;
+    letter-spacing: -14px;
+    line-height:120px;  
+}
+#comprar{
+  color: black ;
+  text-decoration: none;
+}
+
+
+
+
+
+
